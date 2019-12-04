@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated studyprogram -->
+      <package
+            uri="http://org/studyprogram"
+            class="studyprogram.StudyprogramPackage"
+            genModel="model/study.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated study -->
+      <package
+            uri="http://study.org"
+            class="study.StudyPackage"
+            genModel="model/study.genmodel"/>
+   </extension>
+
+</plugin>

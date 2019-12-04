@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tdt4250.study:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tdt4250.study="http://study.org"
+    xsi:schemaLocation="http://study.org study.ecore">
+  <programme
+      name="Computer Science 5 year">
+    <studyPlan>
+      <spesialization
+          name="Software">
+        <semester
+            semesterNumber="5">
+          <courseSlot
+              mandatoryCourse="//@course.15"/>
+          <courseSlot
+              mandatoryCourse="//@course.17"/>
+          <courseSlot
+              mandatoryCourse="//@course.16"/>
+          <courseSlot
+              electiveCourses="//@course.25 //@course.28"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="6"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.19"/>
+          <courseSlot
+              mandatoryCourse="//@course.21"/>
+          <courseSlot
+              mandatoryCourse="//@course.22"/>
+          <courseSlot
+              mandatoryCourse="//@course.20"/>
+        </semester>
+      </spesialization>
+      <spesialization
+          name="Software Engineering">
+        <semester
+            semesterNumber="7">
+          <courseSlot
+              mandatoryCourse="//@course.29"/>
+          <courseSlot
+              mandatoryCourse="//@course.34"/>
+          <courseSlot
+              electiveCourses="//@course.30 //@course.31"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="8"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.35"/>
+          <courseSlot
+              electiveCourses="//@course.38 //@course.37"
+              elective="true"/>
+          <courseSlot
+              electiveCourses="//@course.32 //@course.33"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.36"/>
+        </semester>
+        <semester
+            semesterNumber="9">
+          <courseSlot
+              mandatoryCourse="//@course.45"/>
+          <courseSlot
+              mandatoryCourse="//@course.46"/>
+          <courseSlot
+              electiveCourses="//@course.48 //@course.49"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="10"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.47"/>
+        </semester>
+      </spesialization>
+      <spesialization
+          name="Databases and Search">
+        <semester
+            semesterNumber="5">
+          <courseSlot
+              mandatoryCourse="//@course.15"/>
+          <courseSlot
+              mandatoryCourse="//@course.17"/>
+          <courseSlot
+              mandatoryCourse="//@course.16"/>
+          <courseSlot
+              electiveCourses="//@course.25 //@course.28"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="6"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.19"/>
+          <courseSlot
+              mandatoryCourse="//@course.21"/>
+          <courseSlot
+              mandatoryCourse="//@course.22"/>
+          <courseSlot
+              mandatoryCourse="//@course.26"/>
+        </semester>
+        <semester
+            semesterNumber="7">
+          <courseSlot
+              mandatoryCourse="//@course.41"/>
+          <courseSlot
+              electiveCourses="//@course.30 //@course.31"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.29"/>
+        </semester>
+        <semester
+            semesterNumber="8"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.42"/>
+          <courseSlot
+              electiveCourses="//@course.32 //@course.33"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.36"/>
+          <courseSlot
+              electiveCourses="//@course.37 //@course.38"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="9">
+          <courseSlot
+              mandatoryCourse="//@course.45"/>
+          <courseSlot
+              mandatoryCourse="//@course.46"/>
+          <courseSlot
+              electiveCourses="//@course.48 //@course.49"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="10"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.47"/>
+        </semester>
+      </spesialization>
+      <semester
+          semesterNumber="1">
+        <courseSlot
+            mandatoryCourse="//@course.0"/>
+        <courseSlot
+            mandatoryCourse="//@course.1"/>
+        <courseSlot
+            mandatoryCourse="//@course.2"/>
+        <courseSlot
+            mandatoryCourse="//@course.3"/>
+      </semester>
+      <semester
+          semesterNumber="2"
+          fallOrSpring="Spring">
+        <courseSlot
+            mandatoryCourse="//@course.4"/>
+        <courseSlot
+            mandatoryCourse="//@course.5"/>
+        <courseSlot
+            mandatoryCourse="//@course.6"/>
+        <courseSlot
+            mandatoryCourse="//@course.7"/>
+      </semester>
+      <semester
+          semesterNumber="3">
+        <courseSlot
+            mandatoryCourse="//@course.8"/>
+        <courseSlot
+            mandatoryCourse="//@course.10"/>
+        <courseSlot
+            mandatoryCourse="//@course.11"/>
+        <courseSlot
+            mandatoryCourse="//@course.12"/>
+      </semester>
+      <semester
+          semesterNumber="4"
+          fallOrSpring="Spring">
+        <courseSlot
+            mandatoryCourse="//@course.9"/>
+        <courseSlot
+            mandatoryCourse="//@course.13"/>
+        <courseSlot
+            mandatoryCourse="//@course.14"/>
+        <courseSlot
+            mandatoryCourse="//@course.18"/>
+      </semester>
+    </studyPlan>
+  </programme>
+  <programme
+      name="Computer Science 2 year">
+    <studyPlan>
+      <spesialization
+          name="Artificial Intelligence">
+        <semester
+            semesterNumber="1">
+          <courseSlot
+              mandatoryCourse="//@course.43"/>
+          <courseSlot
+              electiveCourses="//@course.30 //@course.31"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.29"/>
+        </semester>
+        <semester
+            semesterNumber="2"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.44"/>
+          <courseSlot
+              electiveCourses="//@course.32 //@course.33"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.36"/>
+          <courseSlot
+              electiveCourses="//@course.37 //@course.38"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="3">
+          <courseSlot
+              mandatoryCourse="//@course.45"/>
+          <courseSlot
+              mandatoryCourse="//@course.46"/>
+          <courseSlot
+              electiveCourses="//@course.48 //@course.49"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="4"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.47"/>
+        </semester>
+      </spesialization>
+      <spesialization
+          name="Interaction Design and Game Technology">
+        <semester
+            semesterNumber="1">
+          <courseSlot
+              mandatoryCourse="//@course.39"/>
+          <courseSlot
+              electiveCourses="//@course.30 //@course.31"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.29"/>
+        </semester>
+        <semester
+            semesterNumber="2"
+            fallOrSpring="Spring">
+          <courseSlot
+              mandatoryCourse="//@course.40"/>
+          <courseSlot
+              electiveCourses="//@course.33 //@course.32"
+              elective="true"/>
+          <courseSlot
+              electiveCourses="//@course.37 //@course.38"
+              elective="true"/>
+          <courseSlot
+              mandatoryCourse="//@course.36"/>
+        </semester>
+        <semester
+            semesterNumber="3">
+          <courseSlot
+              mandatoryCourse="//@course.45"/>
+          <courseSlot
+              mandatoryCourse="//@course.46"/>
+          <courseSlot
+              electiveCourses="//@course.48 //@course.49"
+              elective="true"/>
+        </semester>
+        <semester
+            semesterNumber="4"
+            fallOrSpring="Spring">
+          <courseSlot/>
+        </semester>
+      </spesialization>
+    </studyPlan>
+  </programme>
+  <course name="ex Phil"
+      code="EXPH0004"
+      points="7.5"/>
+  <course name="Introduction to Information Technology"
+      code="TDT4110"
+      points="7.5"/>
+  <course name="Calculus 1"
+      code="TMA4100"
+      points="7.5"/>
+  <course name="Discrete Mathematics"
+      code="TMA4140"
+      points="7.5"/>
+  <course name="Object Oriented Programming"
+      code="TDT4100"
+      points="7.5"/>
+  <course name="Programming Lab for Computer Science"
+      code="TDT4112"
+      points="7.5"/>
+  <course name="Electrical Circuits and Digital Design"
+      code="TFE4101"
+      points="7.5"/>
+  <course name="Calculus 3"
+      code="TMA4115"
+      points="7.5"/>
+  <course name="Computer Science, Programming Project"
+      code="TDT4113"
+      points="7.5"/>
+  <course name="Software Engineering"
+      code="TDT4140"
+      points="7.5"/>
+  <course name="Algorithms and Datastructures"
+      code="TDT4120"
+      points="7.5"/>
+  <course name="Computers and Digital Design"
+      code="TDT4160"
+      points="7.5"/>
+  <course name="Statistics"
+      code="TMA4240"
+      points="7.5"/>
+  <course name="Data Modelling, Databases and Database Management Systems"
+      code="TDT4145"
+      points="7.5"/>
+  <course name="Human Computer Interactions"
+      code="TDT4180"
+      points="7.5"/>
+  <course name="Intro To AI"
+      code="TDT4136"
+      points="7.5"/>
+  <course name="Information Systems"
+      code="TDT4175"
+      points="7.5"/>
+  <course name="Calculus 4"
+      code="TMA4135"
+      points="7.5"/>
+  <course name="Communication Services and Networks"
+      code="TTM4100"
+      points="7.5"/>
+  <course name="Operation Systems"
+      code="TDT4186"
+      points="7.5"/>
+  <course name="Software Architecture"
+      code="TDT4240"
+      points="7.5"/>
+  <course name="Physics"
+      code="TFY4125"
+      points="7.5"/>
+  <course name="Technology Management"
+      code="TIØ4258"
+      points="7.5"/>
+  <course name="Information Systems"
+      code="TDT4175"
+      points="7.5"/>
+  <course name="Information Retrieval"
+      code="TDT4175"
+      points="7.5"/>
+  <course name="Cognitive Architectures"
+      code="TDT4137"
+      points="7.5"/>
+  <course name="Data Warehousing and Data Mining"
+      code="TDT4300"
+      points="7.5"/>
+  <course name="Artificial Intelligence Methods"
+      code="TDT4171"
+      points="7.5"/>
+  <course name="Programming Languages"
+      code="TDT4165"
+      points="7.5"/>
+  <course name="Customer Driven Project"
+      code="TDT4290"
+      points="15.0"/>
+  <course name="Managerial Economics"
+      code="TIØ4295"
+      points="7.5"/>
+  <course name="Macroeconomics for Managers"
+      code="SOK1151"
+      points="7.5"/>
+  <course name="Optimization and Control"
+      code="TTK4135"
+      points="7.5"/>
+  <course name="Solid State Physics"
+      code="TFY4220"
+      points="7.5"/>
+  <course name="Advanced Software Design"
+      code="TDT4250"
+      points="7.5"/>
+  <course name="Advanced Software Dvelopment"
+      code="TDT4242"
+      points="7.5"/>
+  <course name="Experts In Team"
+      code="BEIT4110"
+      points="7.5"/>
+  <course name="Software Security"
+      code="TDT4237"
+      points="7.5"/>
+  <course name="Digital Service Innovation"
+      code="TDT4237"
+      points="7.5"/>
+  <course name="User Interface Design"
+      code="IT3402"
+      points="7.5"/>
+  <course name="Cooperation Technology and Social Media"
+      code="TDT4245"
+      points="7.5"/>
+  <course name="Very Large Distributed Data Volumes"
+      code="TDT4225"
+      points="7.5"/>
+  <course name="Big Data Architecture"
+      code="TDT4305"
+      points="7.5"/>
+  <course name="Machine Learning"
+      code="TDT4174"
+      points="7.5"/>
+  <course name="Artificial Intelligence Programming"
+      code="IT3105"
+      points="7.5"/>
+  <course name="Computer Science Specialisation Project"
+      code="TDT4501"
+      points="7.5"/>
+  <course name="Computer Science Specialisation Course"
+      code="TDT4506"
+      points="7.5"/>
+  <course name="Computer Science Master Thesis"
+      code="TDT4900"
+      points="30.0"/>
+  <course name="Strategy and Change in technology companies"
+      code="BSOL4610"
+      points="7.5"/>
+  <course name="Architecture as a Technological Practice"
+      code="AAR4250"
+      points="7.5"/>
+</tdt4250.study:Department>

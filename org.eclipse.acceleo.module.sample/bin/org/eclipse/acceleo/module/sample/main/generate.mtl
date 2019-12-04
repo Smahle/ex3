@@ -1,0 +1,64 @@
+[comment encoding = UTF-8 /]
+[module generate('http://study.org', 'http://www.eclipse.org/emf/2002/Ecore')/]
+
+[template public HtmlGenerator(department : Department)]	
+[comment @main /]
+[file ('Startpage'.concat('.html'), false, 'UTF-8')]
+[comment landing page with link to all specialisations/]
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Study</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<ul>
+[for (programme : Programme | department.programme)]	
+	<h1> [programme.name/] </h1>
+	[for (studyPlan : StudyPlan | programme.studyPlan)]
+		[for (semester : Semester | studyPlan.semester)]
+			<h3><li> Semester: [semester.semesterNumber/]</li> </h3>
+			[for (courseSlot : CourseSlot | semester.courseSlot)]
+				[if (courseSlot.elective = false)]
+				<h4> Mandatory course: </h4>
+						[courseSlot.mandatoryCourse.code/] [courseSlot.mandatoryCourse.name/]| points: [courseSlot.mandatoryCourse.points/]
+					[/if]
+				[if (courseSlot.elective=true)]
+					<h4>	Elective course options: </h4>						
+						<ol>
+							[for (course : Course | courseSlot.electiveCourses)]
+								<li>[course.code/] [course.name/] | points: [course.points/]</li>
+							[/for]
+						</ol>
+				[/if]
+			[/for]
+		[/for]
+		[for (specialization : Specialization | studyPlan.spesialization)]
+			<h2> Specialization: [specialization.name/] </h2>
+			[for (semester : Semester | specialization.semester)]
+				<h3><li> Semester: [semester.semesterNumber/]</li> </h3>
+				[for (courseSlot : CourseSlot | semester.courseSlot)]
+					[if (courseSlot.elective = false)]
+					<h4>	Mandatory course: </h4>
+						[courseSlot.mandatoryCourse.code/] [courseSlot.mandatoryCourse.name/]| points: [courseSlot.mandatoryCourse.points/]
+					[/if]
+					[if (courseSlot.elective=true)]
+					<h4>	Elective course options: </h4>
+						<ol>
+							[for (course : Course | courseSlot.electiveCourses)]
+								<li>[course.code/] [course.name/] | points: [course.points/]</li>
+							[/for]
+						</ol>
+					[/if]
+				[/for]
+			[/for]
+		[/for]
+	[/for]
+[/for]
+</ul>
+</body>
+</html>
+[/file]
+
+
+[/template]
