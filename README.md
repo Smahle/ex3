@@ -12,6 +12,10 @@ I added the datatype FallOrSpring for semester.
 
 Launch:
 
-Run generate.mtl with the follwing run configurations: Project: org.eclipse.acceleo.module.sample Main Class: org.eclipse.acceleo.module.sample.main.Generate Model: /org.study/model/Department.xmi Target: /org.eclipse.acceleo.module.sample/target
+Run generate.mtl with the follwing run configurations:
+Project: org.eclipse.acceleo.module.sample 
+Main Class: org.eclipse.acceleo.module.sample.main.Generate 
+Model: /org.study/model/Department.xmi 
+Target: /org.eclipse.acceleo.module.sample/target
 
 The .html file can be found in org.eclipse.acceleo.sample/target
